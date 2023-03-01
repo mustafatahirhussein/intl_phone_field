@@ -109,6 +109,7 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
                           .toList();
                   if (this.mounted) setState(() {});
                 },
+                style: widget.style!.countryNameStyle,
               ),
             ),
             SizedBox(height: 20),
