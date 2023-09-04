@@ -452,11 +452,11 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                 ],
                 if (widget.showCountryFlag) ...[
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(60),
+                    borderRadius: BorderRadius.circular(80),
                     child: Image.asset(
                       'assets/flags/${_selectedCountry.code.toLowerCase()}.png',
                       package: 'intl_phone_field',
-                      width: 20,
+                      width: 50,
                     ),
                   ),
                   SizedBox(width: 8),
